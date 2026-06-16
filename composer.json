@@ -1,0 +1,21 @@
+{
+    "name": "componenta/templater",
+    "description": "Template rendering contracts and Plates adapter for Componenta",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "league/plates": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Componenta\\Templater\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Componenta\\Templater\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
